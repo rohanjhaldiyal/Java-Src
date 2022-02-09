@@ -1,5 +1,5 @@
-Hey everyone, so I started to learn DSA recently
+Hey everyone, so I started to learn DSA recently.
 
-All the programs I write for practice are synced to this repo 
+All the programs I write for practice are synced to this repo.
 
 UwU ~🐣
