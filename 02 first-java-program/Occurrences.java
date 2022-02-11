@@ -11,7 +11,7 @@ public class Occurrences {
         while(m > 0) {
             r = m % 10;
             if(r == d) {
-                c = c + 1;
+                c++;
             }            
             m = m / 10;    
         }
