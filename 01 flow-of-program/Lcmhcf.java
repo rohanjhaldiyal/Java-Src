@@ -14,7 +14,6 @@ public class Lcmhcf {
             hcf = i;
         }
         System.out.println("HCF is: "+hcf);
-
         while(true){
             if(max % a == 0 && max % b == 0) {
                 lcm = max;
