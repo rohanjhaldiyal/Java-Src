@@ -8,20 +8,21 @@ public class Lcmhcf {
         System.out.print("Enter second number: ");
         int b = in.nextInt();
         int max = Math.max(a, b);
-        int hcf = 0; int lcm = 0;
-        for (int i = 1; i <= max; i++) {
-            if(a % i == 0 && b % i == 0)
-            hcf = i;
+        int min = Math.min(a, b);
+        int hcf = 0;
+        int lcm = 0;
+        for (int i = 1; i <= min; i++) {
+            if (a % i == 0 && b % i == 0)
+                hcf = i;
         }
-        System.out.println("HCF is: "+hcf);
-        while(true){
-            if(max % a == 0 && max % b == 0) {
+        System.out.println("HCF is: " + hcf);
+        while (true) {
+            if (max % a == 0 && max % b == 0) {
                 lcm = max;
                 break;
-            }
-            else
-            max++;
+            } else
+                max++;
         }
-        System.out.println("LCM is: "+lcm);
+        System.out.println("LCM is: " + lcm);
     }
 }
